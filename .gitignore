@@ -11,7 +11,7 @@
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
 /wp-includes/
-/index.php
+#/index.php
 /license.txt
 /readme.html
 /wp-*.php
@@ -46,3 +46,26 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+/node_modules/
+
+# Composer dependencies
+/vendor/
+
+# Backup files
+*.bak
+*.tmp
+
+# Environment files
+.env
